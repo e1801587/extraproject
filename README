@@ -1,0 +1,40 @@
+# This is application ver 1.0 ----- by Sergey Gordeev
+
+This application offers a possibility to:
+	- Count the total amount of words in the file.
+	- Count the amount of words that started with the proper letter in the txt file.
+	- Count the total amount of proper letters used in this txt file.
+
+List of Content
+	1. Configuration Instructions
+	For this application the following requirements:
+		-internet connection (for downloading wlist.txt file)
+
+	2. Installation Instractions
+	-Use git clone for downloading the repository from github (link: https://github.com/e1801587/appdev)
+	-Use "make" command for building the program
+	-Use "make clean" command for dissembling the program (NOTE: with "make clean" command you will also delete the wlist.txt file)
+
+	3. Operating Instructions
+		-Use "./project.out" for running the built program. The program will automatically download and read wlist.txt file
+
+	4. List of Files
+		-project.c
+		-makefile
+		-screen.c
+		-screen.h
+		
+	5. Copyright / Copyleft
+		Copyleft Freedom 1
+
+	6. Contact info.
+		name: Sergey
+		email: somebody@somewhere.com
+		phone: +999 999 999
+
+	7. Credits and Acknowledgement
+		made by Sergey Gordeev
+		with the support of the Principal Lecture Gao Chao
+		with the sponsoring of VAMK
+		Souces used:
+			-github.com
