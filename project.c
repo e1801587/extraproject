@@ -294,7 +294,7 @@ system("wget http://www.cc.puv.fi/~gc/wlist.txt");
 
 	//counting the total amount of words
 	for(int z = 0; z<=max; z++){
-		if (c[z] == ' ') words++; 
+		if ((c[z] == ' ') && (c[z+1] != ' ') && (c[z-1] != ' ')) words++;
 	}
 	//can be printed for testing:
 	//printf("The total amount of words: %d\n", words);
