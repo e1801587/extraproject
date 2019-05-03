@@ -16,7 +16,7 @@ char a[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', '
 void barChart(){
 	int i, j, x, z;
 	for(i=0; i<COL; i++){	//for 26 columns
-		for(j=0; j<=let[i]/2; j++){
+		for(j=0; j<let[i]/2; j++){
 			setColors(CYAN, bg(BLACK));
 			printf("\033[%d;%dH", 32-j, i+1);
 
@@ -38,7 +38,7 @@ void barChart(){
 	}
 
 	for(x=0; x<COL; x++){
-		for(z=0; z<=let2[x]/6; z++){
+		for(z=0; z<let2[x]/6; z++){
 			setColors(GREEN, bg(BLACK));
 			printf("\033[%d;%dH", 32-z, x+50);
 
