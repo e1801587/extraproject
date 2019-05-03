@@ -177,7 +177,7 @@ system("wget http://www.cc.puv.fi/~gc/wlist.txt");
 */
 	//putting all the values of words in one array:
 	int i1 = 0, j1 = 0;
-	while (i1 <= 25){
+	while (i1 <= 26){
 		let[i1] = countA;
 		i1++;
 		let[i1] = countB;
@@ -229,12 +229,13 @@ system("wget http://www.cc.puv.fi/~gc/wlist.txt");
 		let[i1] = countY;
 		i1++;
 		let[i1] = countZ;
+		i1++;
 	}
 	//can be printed for testing:
 	//printf("Array 1 values: %d\n", let[2]);
 
 	//putting all values of letters in one array:
-	while (j1<=25){
+	while (j1<=26){
 		let2[j1] = countA2;
 		j1++;
 		let2[j1] = countB2;
@@ -286,6 +287,7 @@ system("wget http://www.cc.puv.fi/~gc/wlist.txt");
 		let2[j1] = countY2;
 		j1++;
 		let2[j1] = countZ2;
+		j1++;
 	}
 	//can be printed for testing:
 	//printf("Array 2 values: %d\n", let2[2]);
