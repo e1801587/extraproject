@@ -11,7 +11,7 @@ List of Content
 		-internet connection (for downloading wlist.txt file)
 
 	2. Installation Instractions
-	-Use git clone for downloading the repository from github (link: https://github.com/e1801587/appdev)
+	-Use git clone for downloading the repository from github (link: https://github.com/e1801587/extraproject)
 	-Use "make" command for building the program
 	-Use "make clean" command for dissembling the program (NOTE: with "make clean" command you will also delete the wlist.txt file)
 
